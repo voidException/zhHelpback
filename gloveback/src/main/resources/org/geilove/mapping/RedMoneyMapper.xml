@@ -15,6 +15,14 @@
     redMoneyID, redMoneyUUID, userUUID, redMoney, redMoneyDate, userUUIDClick, redMoneyState, 
     loseFuncDate
   </sql>
+
+  <select id="selectAllUserRedMoney" resultMap="BaseResultMap" parameterType="Map">
+    SELECT
+    <include refid="Base_Column_List" />
+    from redMoney
+    WHERE userUUID=#{useruuid} and <![CDATA[redMoneyDate< #{redMoneyDate}]]>
+    order by redMoneyDate desc limit 0,7
+  </select>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
     select 
     <include refid="Base_Column_List" />

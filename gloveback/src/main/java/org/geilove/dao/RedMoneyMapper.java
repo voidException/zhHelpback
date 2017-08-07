@@ -2,6 +2,9 @@ package org.geilove.dao;
 
 import org.geilove.pojo.RedMoney;
 
+import java.util.HashMap;
+import java.util.List;
+
 public interface RedMoneyMapper {
     int deleteByPrimaryKey(Long redmoneyid);
 
@@ -14,4 +17,6 @@ public interface RedMoneyMapper {
     int updateByPrimaryKeySelective(RedMoney record);
 
     int updateByPrimaryKey(RedMoney record);
+
+    List<RedMoney> selectAllUserRedMoney(HashMap<String,Object> hashMap);
 }

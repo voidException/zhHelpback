@@ -1,3 +1,6 @@
 .DS_Store
 logs
-target 
+target
+jdbc.properties
+workspace.xml
+src/main/resources/jdbc
