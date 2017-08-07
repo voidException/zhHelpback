@@ -36,8 +36,8 @@
       <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1073,12 +1073,12 @@
       <workItem from="1501641184480" duration="2902000" />
       <workItem from="1501748736776" duration="5700000" />
       <workItem from="1501804965357" duration="16139000" />
-      <workItem from="1501976600664" duration="11548000" />
+      <workItem from="1501976600664" duration="11814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="954364000" />
+    <option name="totallyTimeSpent" value="954630000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1583,8 +1583,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
