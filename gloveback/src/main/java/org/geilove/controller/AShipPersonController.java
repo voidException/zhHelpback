@@ -4,6 +4,7 @@ package org.geilove.controller;
 
 import org.geilove.pojo.RedMoney;
 import org.geilove.pojo.User;
+import org.geilove.requestParam.UseRedMoneyParam;
 import org.geilove.service.SelRedMoneyService;
 import org.geilove.util.Response;
 import org.springframework.stereotype.Controller;
@@ -71,13 +72,17 @@ public class AShipPersonController {
         return resp;
     }
 
+    /**
+     * 使用红包的功能
+     * @param
+     * @return
+     */
     @RequestMapping(value="useMyRedMoney.do",method= RequestMethod.POST)
     @ResponseBody
-    public Response<String> useMyRedMoney (@RequestBody RedMoney redMoney){
+    public Response<String> useMyRedMoney (@RequestBody UseRedMoneyParam useRedMoneyParam,  HttpServletRequest request, HttpServletResponse response){
         Response<String> resp=new Response<>();
 
-        String useruuid=redMoney.getUseruuid();
-        Long redMoneyId=redMoney.getRedmoneyid();
+
 
         return resp;
     }
